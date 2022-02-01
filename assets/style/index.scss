@@ -1,0 +1,173 @@
+@import "./variables.scss";
+@import "./fonts.scss";
+@import "./components.scss";
+
+@import "../bootstrap/4.6.1/scss/root";
+@import "../bootstrap/4.6.1/scss/reboot";
+@import "../bootstrap/4.6.1/scss/type";
+@import "../bootstrap/4.6.1/scss/images";
+@import "../bootstrap/4.6.1/scss/code";
+@import "../bootstrap/4.6.1/scss/grid";
+@import "../bootstrap/4.6.1/scss/tables";
+@import "../bootstrap/4.6.1/scss/forms";
+@import "../bootstrap/4.6.1/scss/buttons";
+@import "../bootstrap/4.6.1/scss/transitions";
+@import "../bootstrap/4.6.1/scss/dropdown";
+@import "../bootstrap/4.6.1/scss/button-group";
+@import "../bootstrap/4.6.1/scss/input-group";
+@import "../bootstrap/4.6.1/scss/custom-forms";
+@import "../bootstrap/4.6.1/scss/nav";
+@import "../bootstrap/4.6.1/scss/navbar";
+@import "../bootstrap/4.6.1/scss/card";
+@import "../bootstrap/4.6.1/scss/breadcrumb";
+@import "../bootstrap/4.6.1/scss/pagination";
+@import "../bootstrap/4.6.1/scss/badge";
+@import "../bootstrap/4.6.1/scss/jumbotron";
+@import "../bootstrap/4.6.1/scss/alert";
+@import "../bootstrap/4.6.1/scss/progress";
+@import "../bootstrap/4.6.1/scss/media";
+@import "../bootstrap/4.6.1/scss/list-group";
+@import "../bootstrap/4.6.1/scss/close";
+@import "../bootstrap/4.6.1/scss/toasts";
+@import "../bootstrap/4.6.1/scss/modal";
+@import "../bootstrap/4.6.1/scss/tooltip";
+@import "../bootstrap/4.6.1/scss/popover";
+@import "../bootstrap/4.6.1/scss/carousel";
+@import "../bootstrap/4.6.1/scss/spinners";
+@import "../bootstrap/4.6.1/scss/utilities";
+@import "../bootstrap/4.6.1/scss/print";
+
+body,
+.container-fluid {
+  background: var(--primary);
+}
+
+.nav {
+  background: var(--primary);
+}
+
+.nav-link {
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+ul > li {
+  list-style: none;
+}
+
+li {
+  font-weight: 600;
+}
+
+li > ul > li {
+  font-weight: 400;
+}
+
+li > ul {
+  padding-left: $spacer;
+}
+
+.navbar-brand {
+  font-weight: 800;
+  font-style: italic;
+  color: var(--info);
+}
+
+.nav-item a:hover {
+  color: var(--danger);
+}
+
+.social-share-btn:not(.social-share-trigger) {
+  color: var(--white) !important;
+}
+
+.vssue :not(.vssue-comment-content) a,
+.vssue .vssue-button:not(:disabled).vssue-button-primary {
+  color: var(--white) !important;
+  border-color: var(--white) !important;
+}
+
+.vssue .vssue-new-comment .vssue-comment-avatar .vssue-icon {
+  fill: var(--white);
+}
+
+.vssue .vssue-header .vssue-header-powered-by {
+  color: $text;
+}
+
+// Texts
+
+.post-header {
+  h1 {
+    font-size: 4rem;
+    text-transform: capitalize;
+    font-weight: lighter;
+    color: $white;
+  }
+
+  #post-date,
+  #post-last-edited {
+    color: $text;
+  }
+}
+
+.content__default {
+  h1 {
+    color: $white;
+    letter-spacing: 0.08rem;
+    a {
+      color: $white;
+    }
+    a:hover {
+      color: $white;
+    }
+  }
+
+  p {
+    color: $text;
+    font-weight: 300;
+  }
+
+  strong {
+    color: $white;
+  }
+
+  ul {
+    color: $text;
+  }
+
+  hr {
+    background-color: $white;
+  }
+}
+
+*[full-page-center] {
+  .fpc-container {
+    min-height: 100vh;
+
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+  }
+
+  h1 {
+    margin-bottom: 2rem;
+  }
+
+  h2 > a {
+    word-break: break-all;
+  }
+
+  .subtitle {
+    h2 {
+      color: $white;
+      margin-bottom: 0.05rem;
+    }
+
+    p {
+      font-weight: 200;
+      letter-spacing: 0.1rem;
+    }
+  }
+}
