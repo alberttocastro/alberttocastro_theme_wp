@@ -10489,27 +10489,30 @@ li > ul {
   color: #d7d7d7;
 }
 
-.content__default h1 {
-  color: #ffffff;
+h1 {
   letter-spacing: 0.08rem;
 }
-.content__default h1 a {
+h1 a {
   color: #ffffff;
 }
-.content__default h1 a:hover {
+h1 a:hover {
   color: #ffffff;
 }
-.content__default p {
+
+p {
   color: #d7d7d7;
   font-weight: 300;
 }
-.content__default strong {
+
+strong {
   color: #ffffff;
 }
-.content__default ul {
+
+ul {
   color: #d7d7d7;
 }
-.content__default hr {
+
+hr {
   background-color: #ffffff;
 }
 
@@ -10532,6 +10535,12 @@ li > ul {
 *[full-page-center] .subtitle p {
   font-weight: 200;
   letter-spacing: 0.1rem;
+}
+
+h1,
+h2,
+h3 {
+  color: #ffffff;
 }
 
 /*# sourceMappingURL=index.css.map */

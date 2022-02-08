@@ -112,35 +112,34 @@ li > ul {
   }
 }
 
-.content__default {
-  h1 {
-    color: $white;
-    letter-spacing: 0.08rem;
-    a {
-      color: $white;
-    }
-    a:hover {
-      color: $white;
-    }
-  }
-
-  p {
-    color: $text;
-    font-weight: 300;
-  }
-
-  strong {
+// .content__default {
+h1 {
+  letter-spacing: 0.08rem;
+  a {
     color: $white;
   }
-
-  ul {
-    color: $text;
-  }
-
-  hr {
-    background-color: $white;
+  a:hover {
+    color: $white;
   }
 }
+
+p {
+  color: $text;
+  font-weight: 300;
+}
+
+strong {
+  color: $white;
+}
+
+ul {
+  color: $text;
+}
+
+hr {
+  background-color: $white;
+}
+// }
 
 *[full-page-center] {
   .fpc-container {
@@ -170,4 +169,10 @@ li > ul {
       letter-spacing: 0.1rem;
     }
   }
+}
+
+h1,
+h2,
+h3 {
+  color: $white;
 }

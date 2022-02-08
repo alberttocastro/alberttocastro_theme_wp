@@ -1,1 +1,5 @@
-Hi 2
+<?php get_header(); ?>
+
+<?php the_content(); ?>
+
+<?php get_footer(); ?>
