@@ -176,3 +176,48 @@ h2,
 h3 {
   color: $white;
 }
+
+.bgi-cover {
+  background-size: cover !important;
+  background-position: center !important;
+}
+
+.front-articles {
+  *:hover {
+    text-decoration: none !important;
+  }
+}
+
+.articles-index {
+  .card > * {
+    color: white;
+    text-decoration: none;
+  }
+}
+
+#contacts {
+  a {
+    text-decoration-color: white;
+  }
+}
+
+.comment-form {
+  [class^="comment-form-"],
+  [class*=" comment-form-"] {
+    display: flex;
+    flex-direction: column;
+
+    textarea,
+    input {
+      border-radius: 10px;
+      background: $glass;
+      color: white;
+
+      padding: $spacer * 0.5;
+    }
+
+    label {
+      margin-bottom: 0px;
+    }
+  }
+}

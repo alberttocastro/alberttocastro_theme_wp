@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div id="post-header" class="vw-100 py-1"
+<div id="post-header" class="vw-100 py-1 bgi-cover"
   style="background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(<?php the_post_thumbnail_url() ?>);"
   data-v-b650d318="">
   <div class="container" data-v-b650d318="">

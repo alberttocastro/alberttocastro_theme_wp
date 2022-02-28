@@ -1,13 +1,13 @@
 <?php get_header() ?>
 
-<div class="container mt-5">
+<div class="container mt-5 articles-index">
 
 
   <?php
   if (have_posts()) :
     while (have_posts()) : the_post(); ?>
 
-  <div class="card my-4 rounded-lg article p-2"
+  <div class="card my-4 rounded-lg article p-2 bgi-cover"
     style="background-image: linear-gradient(0deg, rgba(29, 29, 29, 0.8), rgba(29, 29, 29, 0.8)), url(<?php the_post_thumbnail_url() ?>)">
     <a href="<?php the_permalink() ?>">
       <div class="last-updated">

@@ -17,22 +17,24 @@
       <h2 id="articles"><a href="#articles" class="header-anchor"></a> Articles</h2>
       <p>Tips, opinion and knowledge</p>
     </div>
-    <div class="card rounded-lg mb-2"
-      style="background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(https://bl6pap003files.storage.live.com/y4m9IInZzOjUu_2y4IJTcprpyUY-DSt04jtUId6f8dkynfn5LCVC4h7kO9Zb6kM6IQ7fkbN4NtI5kk_0xjL8S_VXdr3UdDfLT3dC9hkg2DR3uswdyzNogBM6qgz0USyRZxuIwY18I0ba7OJeXjk13PWr-2mk2LIPyZ1S8oj4HaInLrgo2Zpnz2Dy7BU-J6i2hxS?width=1920&amp;height=1280&amp;cropmode=none);"
-      data-v-5fb21a18="">
-      <!---->
-      <!----><a href="/blog/2021/hello-world/" data-v-5fb21a18="">
-        <div class="p-0" data-v-5fb21a18="">
-          <div class="text-center date" data-v-5fb21a18="">
-            <p data-v-5fb21a18="">21/09/2021</p>
+    <div class="front-articles">
+      <div class="card rounded-lg mb-2"
+        style="background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(https://bl6pap003files.storage.live.com/y4m9IInZzOjUu_2y4IJTcprpyUY-DSt04jtUId6f8dkynfn5LCVC4h7kO9Zb6kM6IQ7fkbN4NtI5kk_0xjL8S_VXdr3UdDfLT3dC9hkg2DR3uswdyzNogBM6qgz0USyRZxuIwY18I0ba7OJeXjk13PWr-2mk2LIPyZ1S8oj4HaInLrgo2Zpnz2Dy7BU-J6i2hxS?width=1920&amp;height=1280&amp;cropmode=none);"
+        data-v-5fb21a18="">
+        <!---->
+        <!----><a href="/blog/2021/hello-world/" data-v-5fb21a18="">
+          <div class="p-0" data-v-5fb21a18="">
+            <div class="text-center date" data-v-5fb21a18="">
+              <p data-v-5fb21a18="">21/09/2021</p>
+            </div>
+            <div class="text-center title" data-v-5fb21a18="">
+              <p data-v-5fb21a18="">Hello world</p>
+            </div>
           </div>
-          <div class="text-center title" data-v-5fb21a18="">
-            <p data-v-5fb21a18="">Hello world</p>
-          </div>
-        </div>
-      </a>
-      <!---->
-      <!---->
+        </a>
+        <!---->
+        <!---->
+      </div>
     </div>
     <div class="subtitle">
       <h2 id="portfolio"><a href="#portfolio" class="header-anchor"></a> Portfolio</h2>

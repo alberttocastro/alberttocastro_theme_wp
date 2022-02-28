@@ -10543,4 +10543,41 @@ h3 {
   color: #ffffff;
 }
 
+.bgi-cover {
+  background-size: cover !important;
+  background-position: center !important;
+}
+
+.front-articles *:hover {
+  text-decoration: none !important;
+}
+
+.articles-index .card > * {
+  color: white;
+  text-decoration: none;
+}
+
+#contacts a {
+  text-decoration-color: white;
+}
+
+.comment-form [class^=comment-form-],
+.comment-form [class*=" comment-form-"] {
+  display: flex;
+  flex-direction: column;
+}
+.comment-form [class^=comment-form-] textarea,
+.comment-form [class^=comment-form-] input,
+.comment-form [class*=" comment-form-"] textarea,
+.comment-form [class*=" comment-form-"] input {
+  border-radius: 10px;
+  background: #4E354D;
+  color: white;
+  padding: 0.5rem;
+}
+.comment-form [class^=comment-form-] label,
+.comment-form [class*=" comment-form-"] label {
+  margin-bottom: 0px;
+}
+
 /*# sourceMappingURL=index.css.map */
