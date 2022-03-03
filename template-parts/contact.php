@@ -6,7 +6,7 @@
       </div>
       <div class="flex-grow-1 text-center title" data-v-1d55354a="">
         <h3 data-v-1d55354a="">
-          <p data-v-1d55354a="">Contact</p>
+          <p data-v-1d55354a="">Contatos</p>
         </h3>
       </div>
       <div class="flex-grow-1 flex-shrink-1 d-flex align-items-center" data-v-1d55354a="">
@@ -59,7 +59,7 @@
             src="<?php echo get_template_directory_uri() . '/assets/icons/email_icon.svg'; ?>" data-v-dafce37c=""></div>
         <div class="flex-grow-1 d-flex align-items-center" data-v-dafce37c="">
           <div class="flex-grow-1 text-center m-0 px-4" data-v-dafce37c="">
-            <p>albertto.programmer @gmail.com</p>
+            <p>albertto.programmer@gmail.com</p>
           </div>
         </div>
       </div>
