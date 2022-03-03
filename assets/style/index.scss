@@ -221,3 +221,21 @@ h3 {
     }
   }
 }
+
+.menu {
+  li.menu-item {
+    a {
+      color: white;
+
+      &:hover {
+        text-decoration-color: white;
+      }
+    }
+
+    margin-left: $spacer;
+  }
+
+  li.menu-item:first-child {
+    margin-left: 0;
+  }
+}
