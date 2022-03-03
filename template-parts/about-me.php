@@ -70,7 +70,7 @@
     </div>
     <div class="" scope-icon-card>
       <div class="card bg-glass rounded-lg py-2 mb-2">
-        <a :href="url" v-if="url">
+        <a href="/curriculum" v-if="url">
           <div class="card-body">
             <div class="d-flex align-items-center">
               <div class="d-flex flex-grow-0 justify-content-center">
