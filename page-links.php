@@ -12,6 +12,8 @@
   <?php wp_enqueue_style('main-styles', get_template_directory_uri() . '/assets/css/index.css') ?>
 
   <?php wp_head(); ?>
+
+  <?php get_template_part('template-parts/hero-main'); ?>
 </head>
 
 <body <?php body_class(); ?>>
