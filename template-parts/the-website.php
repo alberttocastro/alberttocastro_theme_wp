@@ -23,7 +23,7 @@
       <div class="card rounded-lg mb-2 bgi-cover"
         style="background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(<?php echo get_the_post_thumbnail_url($post) ?>);"
         data-v-5fb21a18="">
-        <a href="<?php get_the_permalink($post) ?>" data-v-5fb21a18="">
+        <a href="<?php echo get_the_permalink($post) ?>" data-v-5fb21a18="">
           <div class="p-0" data-v-5fb21a18="">
             <div class="text-center date" data-v-5fb21a18="">
               <p data-v-5fb21a18=""><?php echo get_the_date(null, $post) ?></p>
