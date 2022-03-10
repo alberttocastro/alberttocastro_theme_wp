@@ -10590,4 +10590,23 @@ h3 {
   text-decoration-color: white;
 }
 
+nav.navigation.pagination {
+  display: flex;
+  justify-content: center;
+}
+nav.navigation.pagination .nav-links {
+  display: flex;
+  justify-content: space-between;
+}
+nav.navigation.pagination .page-numbers {
+  margin: 0 1rem;
+}
+nav.navigation.pagination .nav-links a,
+nav.navigation.pagination .nav-links span {
+  color: white;
+}
+nav.navigation.pagination .page-numbers.current {
+  font-weight: bold;
+}
+
 /*# sourceMappingURL=index.css.map */

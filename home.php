@@ -24,8 +24,13 @@
     </a>
   </div>
 
+  <?php endwhile; ?>
+
+  <div class="links">
+    <?php the_posts_pagination(); ?>
+  </div>
+
   <?php
-    endwhile;
   else :
     _e('Sorry, no posts matched your criteria.', 'textdomain');
   endif;

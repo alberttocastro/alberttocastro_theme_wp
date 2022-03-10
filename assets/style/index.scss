@@ -235,3 +235,26 @@ h3 {
     margin-left: $spacer;
   }
 }
+
+nav.navigation.pagination {
+  display: flex;
+  justify-content: center;
+
+  .nav-links {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .page-numbers {
+    margin: 0 $spacer;
+  }
+
+  .nav-links a,
+  .nav-links span {
+    color: white;
+  }
+
+  .page-numbers.current {
+    font-weight: bold;
+  }
+}
