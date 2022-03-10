@@ -10609,4 +10609,22 @@ nav.navigation.pagination .page-numbers.current {
   font-weight: bold;
 }
 
+#link-bg {
+  background: #449e8c;
+  background: linear-gradient(162.74deg, #2d142c 2.55%, #792476 163.15%);
+  min-height: 100vh;
+}
+#link-bg img {
+  border-radius: 50%;
+  border-color: var(--primary);
+  border-width: 8px;
+  border-style: solid;
+}
+#link-bg .card div.card-text {
+  font-size: 1.4rem;
+}
+#link-bg .card div.card-text p {
+  margin: 0;
+}
+
 /*# sourceMappingURL=index.css.map */
