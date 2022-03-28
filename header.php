@@ -6,8 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="profile" href="https://gmpg.org/xfn/11" />
 
-  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
-
   <?php wp_enqueue_style('main-styles', get_template_directory_uri() . '/assets/css/index.css') ?>
 
   <?php wp_head(); ?>
